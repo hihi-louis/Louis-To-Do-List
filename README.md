@@ -1,5 +1,8 @@
 # **📌 My To-Do List App**
 
+<img width="1080" alt="Screenshot 2025-02-02 at 19 24 36" src="https://github.com/user-attachments/assets/fb002295-dfcb-47d3-bfa7-b0e4d1feef15" />
+
+
 A **modern, colorful, and professional** to-do list application built with **TypeScript, HTML, and CSS**, running in a **Node.js environment**.
 
 This app allows users to **add, check, and delete tasks** with a **beautiful UI**, **smooth animations**, and **gradient-based styling**.
