@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do-list</title>
+    <script type="module" crossorigin src="/assets/index-CFjuGVuN.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BZUaWO3d.css">
+  </head>
+
+  <body>
+    <main class="container">
+      <h1 class="offscreen">Louis's List</h1>
+
+      <section class="newItemEntry">
+        <h2 class="section-heading">Add a New Task</h2>
+        <form class="newItemEntry__form" id="itemEntryForm">
+          <input
+            class="newItemEntry__input"
+            id="newItem"
+            type="text"
+            maxlength="40"
+            autocomplete="off"
+            placeholder="Enter your task..."
+            aria-describedby="newItemHelp"
+          />
+          <button
+            id="addItem"
+            class="button newItemEntry__button"
+            title="Add new item"
+            aria-label="Add new item to list"
+          >
+            ➕
+          </button>
+        </form>
+      </section>
+
+      <section class="listContainer">
+        <header class="listTitle">
+          <h2 id="listName" class="section-heading">Your Task List</h2>
+          <button
+            id="clearItemsButton"
+            class="button listTitle__button"
+            title="Clear the list"
+            aria-label="Remove all items from the list"
+          >
+            🗑️ Clear All
+          </button>
+        </header>
+        <hr />
+        <ul id="listItems" aria-live="polite">
+          <!-- List items will be dynamically added here -->
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
